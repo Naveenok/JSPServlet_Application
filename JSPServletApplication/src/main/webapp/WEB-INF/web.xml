@@ -4,4 +4,17 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>GetStudentController</servlet-name>
+  	<display-name>GetStudentController</display-name>
+  	<description></description>
+  	<servlet-class>com.naveen.web.GetStudentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetStudentController</servlet-name>
+  	<url-pattern>/getstudent</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>
+  	
